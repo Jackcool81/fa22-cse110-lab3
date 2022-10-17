@@ -28,7 +28,7 @@
         
     }
 
-    .titler {
+    #titler {
         font-size: 1cm;
     }
 
@@ -51,6 +51,10 @@
     .imager {
         height: 150px;
         width: 150px;
+    }
+
+    #titler {
+        font-size: 0.5cm;
     }
 
     
