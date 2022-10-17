@@ -1,3 +1,5 @@
+/* 33hp */
+
 @font-face {
     font-family: 'merriweatherregular';
     src: url('fonts/merriweather-regular-webfont.woff2') format('woff2'),
@@ -8,9 +10,13 @@
 }
 
 @media (max-width: 16in) {
+    * {
+        font-size: 20px;
+    }
+    
     .hardcore {
-        height: 200px;
-        width: 200px;
+        height: 400px;
+        width: 400px;
     }
 
     .imager {
@@ -28,8 +34,12 @@
         
     }
 
-    .titler {
-        font-size: 1cm;
+    #titler {
+        font-size: 0.5cm;
+    }
+
+    nav {
+        margin: 20px 20px 20px 100px;
     }
 
 
@@ -42,9 +52,13 @@
 }
 
 @media (max-width: 1000px) {
+    * {
+        font-size: 20px;
+    }
+    
     .hardcore {
-        height: 300px;
-        width: 300px;
+        height: 400px;
+        width: 400px;
         margin-right: 50px;
     }
 
@@ -52,25 +66,60 @@
         height: 150px;
         width: 150px;
     }
+/* ID Selector */
+    #titler {
+        font-size: 0.5cm;
+    }
 
     
 }
 
-.hardcore {
-    height: 200px;
+div.mainRow1 {
+    background-color: yellow;
+}
+
+div ~ p {
+    background-color: yellow;
+    margin: 0px 0px 0px 20px;
+}
+
+header + .containerHeader {
+    align-self: left;
+}
+
+div > h3 {
+    font-size: 30px;
+}
+
+.right-side h3 {
+    background-color: yellow;
+}
+/* UNiversal Selector */
+* {
+    font-size: 20px;
 }
 
 
+/* Class Selector */
+.hardcore {
+    height: 600px;
+}
+
+li[class] {
+    color: aqua;
+}
+
+
+/* element selctor */
 h1 {
     text-align: center;
     color: #05386B;
     margin-bottom: 1em;
     text-decoration: underline;
     font-family: merriweatherregular, serif;
-    
-    
-    
 }
+
+
 
 h2 {
     text-align: center;
@@ -85,6 +134,13 @@ h3 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 
+}
+
+/* Selector List */
+h1,
+h3,
+h2 {
+  color: blue;
 }
 
 
@@ -172,7 +228,7 @@ main {
     
 
 }
-
+/* Pseudo-class Selector  */
 button:hover {
     color: #05386B;
 }
