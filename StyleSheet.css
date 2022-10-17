@@ -1,3 +1,5 @@
+/* 33hp */
+
 @font-face {
     font-family: 'merriweatherregular';
     src: url('fonts/merriweather-regular-webfont.woff2') format('woff2'),
@@ -36,6 +38,10 @@
         font-size: 0.5cm;
     }
 
+    nav {
+        margin: 20px 20px 20px 100px;
+    }
+
 
     
 
@@ -60,7 +66,7 @@
         height: 150px;
         width: 150px;
     }
-
+/* ID Selector */
     #titler {
         font-size: 0.5cm;
     }
@@ -68,24 +74,40 @@
     
 }
 
+header + div {
+    
+}
+
+div > h3 {
+    font-size: 30px;
+}
+
+.right-side h3 {
+    background-color: yellow;
+}
+/* UNiversal Selector */
 * {
     font-size: 20px;
 }
 
+
+/* Class Selector */
 .hardcore {
     height: 600px;
 }
 
+li[class] {
+    color: aqua;
+}
 
+
+/* element selctor */
 h1 {
     text-align: center;
     color: #05386B;
     margin-bottom: 1em;
     text-decoration: underline;
     font-family: merriweatherregular, serif;
-    
-    
-    
 }
 
 
@@ -197,7 +219,7 @@ main {
     
 
 }
-
+/* Pseudo-class Selector  */
 button:hover {
     color: #05386B;
 }
