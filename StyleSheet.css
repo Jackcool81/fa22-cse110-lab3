@@ -8,6 +8,10 @@
 }
 
 @media (max-width: 16in) {
+    * {
+        font-size: 20px;
+    }
+    
     .hardcore {
         height: 400px;
         width: 400px;
@@ -42,6 +46,10 @@
 }
 
 @media (max-width: 1000px) {
+    * {
+        font-size: 20px;
+    }
+    
     .hardcore {
         height: 400px;
         width: 400px;
