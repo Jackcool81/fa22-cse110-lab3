@@ -74,8 +74,17 @@
     
 }
 
-header + div {
-    
+div.mainRow1 {
+    background-color: yellow;
+}
+
+div ~ p {
+    background-color: yellow;
+    margin: 0px 0px 0px 20px;
+}
+
+header + .containerHeader {
+    align-self: left;
 }
 
 div > h3 {
