@@ -88,10 +88,7 @@ h1 {
     
 }
 
-h1,
-.special {
-  color: blue;
-}
+
 
 h2 {
     text-align: center;
@@ -106,6 +103,13 @@ h3 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 
+}
+
+/* Selector List */
+h1,
+h3,
+h2 {
+  color: blue;
 }
 
 
